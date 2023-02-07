@@ -1,12 +1,17 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavigationLinks from './components/atoms/molecules/Navigation/NavigationLinks/NavigationLinks';
 
 const App = () => {
-
   return (
     <div>
-      <h1>Hello</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<NavigationLinks />} />
+        </Routes>
+      </BrowserRouter>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
