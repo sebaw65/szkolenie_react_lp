@@ -2,11 +2,9 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavigationLinks from './components/atoms/molecules/Navigation/NavigationLinks/NavigationLinks';
 
-import styles from './App.module.css';
-
 const App = () => {
   return (
-    <div className={styles.site}>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<NavigationLinks />} />
