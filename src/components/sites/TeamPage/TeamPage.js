@@ -1,12 +1,8 @@
 import React from 'react';
-import Header from '../../organisms/Header';
+import MainTemplate from '../../templates/MainTemplate';
 
 const TeamPage = () => {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <MainTemplate> </MainTemplate>;
 };
 
 export default TeamPage;
