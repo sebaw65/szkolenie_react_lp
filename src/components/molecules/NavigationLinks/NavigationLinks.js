@@ -1,5 +1,5 @@
 import React from 'react';
-import Anchor from '../../../atoms/Anchor/Anchor';
+import Anchor from '../../atoms/Anchor/Anchor';
 
 import styles from './NavigationLinks.module.css';
 

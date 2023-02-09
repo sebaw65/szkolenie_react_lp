@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../../../atoms/Logo/Logo';
-import NavigationLinks from '../../../molecules/Navigation/NavigationLinks/NavigationLinks';
+import Logo from '../../atoms/Logo/Logo';
+import NavigationLinks from '../../molecules/NavigationLinks/NavigationLinks';
 
 import styles from './Header.module.css';
 

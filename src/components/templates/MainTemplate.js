@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../organisms/Header/Header/Header';
+import Header from '../organisms/Header/Header';
 
 const MainTemplate = ({ children }) => {
   return (
