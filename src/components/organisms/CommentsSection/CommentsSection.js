@@ -11,20 +11,20 @@ const CommentsSection = () => {
     {
       text: 'Veniam anim minim sint sunt deserunt enim amet mollit elit dolor sit. Non exercitation ex eiusmod elit sint cupidatat. Officia amet eu aute non. Ut ullamco qui fugiat aute sit in aliquip laborum mollit cupidatat. Dolore sit duis nulla minim ex commodo pariatur enim nisi sint. Amet aliquip aliqua est adipisicing irure pariatur excepteur duis reprehenderit eu voluptate consectetur deserunt excepteur.',
       img: image1,
-      author: 'Bill Clinton',
-      position: 'CO USA Departament',
+      author: 'Julian Tuwim',
+      position: 'Pisarz',
     },
     {
       text: 'Veniam anim minim sint sunt deserunt enim amet mollit elit dolor sit. Non exercitation ex eiusmod elit sint cupidatat. Officia amet eu aute non. Ut ullamco qui fugiat aute sit in aliquip laborum mollit cupidatat. Dolore sit duis nulla minim ex commodo pariatur enim nisi sint. Amet aliquip aliqua est adipisicing irure pariatur excepteur duis reprehenderit eu voluptate consectetur deserunt excepteur.',
       img: image2,
-      author: 'Bill Clinton',
-      position: 'CO USA Departament',
+      author: 'Fryderyk Chopin',
+      position: 'Muzyk',
     },
     {
       text: 'Veniam anim minim sint sunt deserunt enim amet mollit elit dolor sit. Non exercitation ex eiusmod elit sint cupidatat. Officia amet eu aute non. Ut ullamco qui fugiat aute sit in aliquip laborum mollit cupidatat. Dolore sit duis nulla minim ex commodo pariatur enim nisi sint. Amet aliquip aliqua est adipisicing irure pariatur excepteur duis reprehenderit eu voluptate consectetur deserunt excepteur.',
       img: image3,
-      author: 'Bill Clinton',
-      position: 'CO USA Departament',
+      author: 'Maria Skłodowska-Curie',
+      position: 'Fizyczka, chemiczka',
     },
   ];
 
