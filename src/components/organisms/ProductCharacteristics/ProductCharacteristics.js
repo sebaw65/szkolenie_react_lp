@@ -40,7 +40,7 @@ const ProductCharacteristics = () => {
   ];
 
   return (
-    <div className={styles.flexContainer}>
+    <section className={styles.flexContainer}>
       {elements.map((el, index) => {
         return (
           <IconWithDescibe
@@ -52,7 +52,7 @@ const ProductCharacteristics = () => {
           />
         );
       })}
-    </div>
+    </section>
   );
 };
 
