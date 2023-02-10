@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import styles from './Anchor.module.css';
-const Anchor = ({ text, link }) => {
+const Anchor = ({ text, link, css = '' }) => {
   return (
-    <Link to={link} className={styles.anchor}>
+    <Link to={link} className={`${styles.anchor} ${styles[css]} `}>
       {text}
     </Link>
   );
