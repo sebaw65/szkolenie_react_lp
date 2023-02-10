@@ -5,6 +5,8 @@ import Shield from '../../../images/icon-security.svg';
 import Collaboriation from '../../../images/icon-collaboration.svg';
 import StoreAnyType from '../../../images/icon-any-file.svg';
 
+import styles from './ProductCharacteristics.module.css';
+
 const ProductCharacteristics = () => {
   const elements = [
     {
@@ -38,7 +40,7 @@ const ProductCharacteristics = () => {
   ];
 
   return (
-    <div>
+    <div className={styles.flexContainer}>
       {elements.map((el, index) => {
         return (
           <IconWithDescibe

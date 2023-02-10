@@ -18,3 +18,8 @@ h3 {
   line-height: 1.3;
   font-size: 18px;
 }
+
+.featureTitle {
+  font-weight: 700;
+  margin-bottom: 14px;
+}
