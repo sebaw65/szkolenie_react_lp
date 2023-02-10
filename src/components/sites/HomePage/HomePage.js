@@ -1,4 +1,5 @@
 import React from 'react';
+import CommentsSection from '../../organisms/CommentsSection/CommentsSection';
 import CompanyOffert from '../../organisms/CompanyOffert/CompanyOffert';
 import ProductCharacteristics from '../../organisms/ProductCharacteristics/ProductCharacteristics';
 import StayProductiveSection from '../../organisms/StayProductiveSection/StayProductiveSection';
@@ -10,6 +11,7 @@ const HomePage = () => {
       <CompanyOffert />
       <ProductCharacteristics />
       <StayProductiveSection />
+      <CommentsSection />
     </MainTemplate>
   );
 };
