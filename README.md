@@ -1,3 +1,13 @@
+# ----------------------------------------------------------------------------------------------------------
+
+# Tak wiem, że style są okropnie napisane a komponenty można by było zrobić reużywalne.
+
+# Przekazując styl w propsach odkryłem, że css module jest w tej kwestii bardzo ograniczone -
+
+# nie można przekazać w propsie wartości dla jakiegoś parametru stylu - np marginTop : `${props.marginTop}`
+
+# ----------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
