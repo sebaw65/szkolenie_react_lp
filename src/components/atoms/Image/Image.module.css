@@ -1,0 +1,17 @@
+.smallImage {
+  height: 100px;
+}
+
+.left-corner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.topOffset-30px {
+  margin-top: -30px;
+}
+
+.leftMargin20px {
+  margin-left: 20px;
+}
