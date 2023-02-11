@@ -1,13 +1,14 @@
 import React from 'react';
 import ContactForm from '../../molecules/ContactForm/ContactForm';
+import Footer from '../../molecules/Footer/Footer';
 
-const Footer = () => {
+const FooterSection = () => {
   return (
-    <footer>
+    <div style={{ position: 'relative' }}>
       <ContactForm />
-      <div>Columns</div>
-    </footer>
+      <Footer />
+    </div>
   );
 };
 
-export default Footer;
+export default FooterSection;

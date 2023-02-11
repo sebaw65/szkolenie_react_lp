@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.background {
+  background-color: hsl(216, 53%, 9%);
+  height: 300px;
+  padding-top: 150px;
+  box-sizing: border-box;
+}

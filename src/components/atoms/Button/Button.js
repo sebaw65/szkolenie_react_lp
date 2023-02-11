@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Button.module.css';
 
-const Button = ({ text, link, display = 'block', margin = '0 0 0 0' }) => {
+const Button = ({ text, link, display = 'block', margin = '0 auto' }) => {
   return (
     <button
       sty
