@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../organisms/Footer/Footer';
+import FooterSection from '../organisms/FooterSection/FooterSection';
 import Header from '../organisms/Header/Header';
 
 const MainTemplate = ({ children }) => {
@@ -7,7 +7,7 @@ const MainTemplate = ({ children }) => {
     <div>
       <Header />
       {children}
-      <Footer />
+      <FooterSection />
     </div>
   );
 };
