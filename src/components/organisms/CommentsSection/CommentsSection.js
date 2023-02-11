@@ -3,8 +3,9 @@ import CommentContainer from '../../molecules/CommentContainer/CommentContainer'
 import image1 from '../../../images/profile-1.jpg';
 import image2 from '../../../images/profile-2.jpg';
 import image3 from '../../../images/profile-3.jpg';
-
+import quoteImg from '../../../images/bg-quotes.png';
 import styles from './CommentsSection.module.css';
+import Image from '../../atoms/Image/Image';
 
 const CommentsSection = () => {
   const comments = [
@@ -30,6 +31,16 @@ const CommentsSection = () => {
 
   return (
     <div className={styles.wrapper}>
+      <Image
+        source={quoteImg}
+        alt="Quote"
+        cssNames={[
+          'smallImage',
+          'left-corner',
+          'topOffset-30px',
+          'leftMargin20px',
+        ]}
+      />
       {comments.map((el, id) => {
         return (
           <CommentContainer
