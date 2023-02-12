@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import styles from './Image.module.css';
 
@@ -13,3 +14,9 @@ const Image = ({ source, alt, cssNames }) => {
 };
 
 export default Image;
+
+Image.propTypes = {
+  source: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  cssNames: PropTypes.array,
+};

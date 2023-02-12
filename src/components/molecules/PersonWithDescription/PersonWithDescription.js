@@ -1,6 +1,7 @@
 import React from 'react';
 import HeadingText from '../../atoms/HeadingText/HeadingText';
 import RoundedImage from '../../atoms/RoundedImage/RoundedImage';
+import PropTypes from 'prop-types';
 
 import styles from './PersonWithDescription.module.css';
 
@@ -15,3 +16,9 @@ const PersonWithDescription = ({ image, author, position }) => {
 };
 
 export default PersonWithDescription;
+
+PersonWithDescription.propTypes = {
+  image: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  position: PropTypes.string.isRequired,
+};

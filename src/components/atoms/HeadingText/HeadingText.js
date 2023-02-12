@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import styles from './HeadingText.module.css';
 
@@ -16,3 +17,9 @@ const HeadingText = ({ level, text, cssClassName = '' }) => {
 };
 
 export default HeadingText;
+
+HeadingText.propTypes = {
+  level: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  cssClassName: PropTypes.string,
+};

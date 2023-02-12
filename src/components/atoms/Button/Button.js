@@ -1,11 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import styles from './Button.module.css';
 
 const Button = ({ text, link, display = 'block', margin = '0 auto' }) => {
   return (
     <button
-      sty
       style={{ display: `${display}`, margin: `${margin}` }}
       className={styles.button}
       href={link}
@@ -16,3 +16,10 @@ const Button = ({ text, link, display = 'block', margin = '0 auto' }) => {
 };
 
 export default Button;
+
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  display: PropTypes.string,
+  margin: PropTypes.string,
+};

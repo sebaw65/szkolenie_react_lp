@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import styles from './Input.module.css';
 
-const Form = ({ type, placeholder, cssNames = [''] }) => {
+const Input = ({ type, placeholder, cssNames = [''] }) => {
   let allStyles;
 
   cssNames.length === 1
@@ -18,4 +19,10 @@ const Form = ({ type, placeholder, cssNames = [''] }) => {
   );
 };
 
-export default Form;
+export default Input;
+
+Input.propTypes = {
+  type: PropTypes.string.isRequired,
+  placeholder: PropTypes.string.isRequired,
+  cssNames: PropTypes.array,
+};

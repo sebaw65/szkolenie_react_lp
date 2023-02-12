@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import styles from './Paragraph.module.css';
 
@@ -7,3 +8,7 @@ const Paragraph = ({ text }) => {
 };
 
 export default Paragraph;
+
+Paragraph.propTypes = {
+  text: PropTypes.string,
+};
